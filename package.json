@@ -1,0 +1,20 @@
+{
+  "name": "adbkit-plugin-shell-exec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepack": "npx babel src --out-dir lib",
+    "test": "npm pack && babel-node test/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "adbkit": "^2.11.0",
+    "bluebird": "^3.5.1"
+  }
+}
